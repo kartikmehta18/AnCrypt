@@ -1,0 +1,191 @@
+/* 
+lightest d7fff1
+aafcb8
+8cd790
+77af9c
+285943 */
+
+/* green black
+white FCFFFC
+2D3A3A
+secondary green light 2BA84A
+primary green dark 248232
+black 040F0F */
+
+
+ ::-webkit-scrollbar{
+  display: none;
+  width: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+ }
+
+.mainDiv{
+  /* background-color: #14161a; */
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+.coinRow{
+  
+  background-color:black;
+  cursor: pointer;
+  font-family: "Montserrat";
+  
+}
+
+a{
+  text-decoration: none;
+  color: #248232;
+}
+
+
+
+
+
+
+.marketData{
+  
+  padding: 25px;
+  padding-top: 10px;
+  width: 100%;
+  margin-top: 30px;
+
+  border-radius: 15px;
+  box-shadow:20px 20px 50px rgba(0, 0, 0, 0.5); 
+  background-color: rgba(255, 255, 255, 0.1);
+  border-top:1px solid rgba(255, 255, 255, 0.5); 
+  border-left:1px solid rgba(255, 255, 255, 0.5); 
+  backdrop-filter:blur(5px);
+  
+}  
+
+.chartContainer{
+  width: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 25px;
+      padding: 40px;
+}
+.selectbutton{
+  border: 1px solid orange;
+      border-radius: 5px;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family: "Montserrat";
+      cursor: pointer;
+      width: 22%;
+}
+.selectbutton:hover{
+  background-color: orange;
+        color: black;
+}
+
+
+.coinTable{
+  border: 1px solid rgba(87, 87, 87, 0.362);
+  border-radius: 10px;
+  /* height: 500px; */
+}
+
+.blinkText{
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.8;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroText{
+  position: absolute;
+  width: 100%;
+  margin: 200px 0px;
+  /* height: 100%; */
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Montserrat";
+  /* border: 2px solid hotpink; */
+}
+
+
+.overlay{
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  font-size: 12px;
+  font: "Montserrat";
+  width: 60px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position above the button */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent; /* Dark background color */
+}
+
+/* Show the tooltip on hover */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

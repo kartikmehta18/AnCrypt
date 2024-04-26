@@ -6,15 +6,15 @@
      Track Cryptocurrency Trends with Ease on Our Modern React-Powered Platform!
     <br/>
     <br/>
-    <a href="https://github.com/ThisIsSahaj/AnCrypt">View Demo</a>
+    <a href="https://github.com/kartikmehta18/AnCrypt">View Demo</a>
     .
-    <a href="https://github.com/ThisIsSahaj/AnCrypt/issues">Report Bug</a>
+    <a href="https://github.com/kartikmehta18/AnCrypt/issues">Report Bug</a>
     .
-    <a href="https://github.com/ThisIsSahaj/AnCrypt/issues">Request Feature</a>
+    <a href="https://github.com/kartikmehta18/AnCrypt/issues">Request Feature</a>
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/ThisIsSahaj/AnCrypt?color=dark-green) ![Forks](https://img.shields.io/github/forks/ThisIsSahaj/AnCrypt?style=social) ![Stargazers](https://img.shields.io/github/stars/ThisIsSahaj/AnCrypt?style=social) ![Issues](https://img.shields.io/github/issues/ThisIsSahaj/AnCrypt) 
+![Contributors](https://img.shields.io/github/contributors/kartikmehta18/AnCrypt?color=dark-green) ![Forks](https://img.shields.io/github/forks/kartikmehta18/AnCrypt?style=social) ![Stargazers](https://img.shields.io/github/stars/kartikmehta18/AnCrypt?style=social) ![Issues](https://img.shields.io/github/issues/kartikmehta18/AnCrypt) 
 
 ## About The Project
 
